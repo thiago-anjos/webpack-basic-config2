@@ -16,7 +16,7 @@ export default class GeraCPF {
 
   geraNovoCpf() {
     const cpfSemDigito = this.rand();
-    console.log(cpfSemDigito)
+    // console.log(cpfSemDigito)
     const digito1 = ValidaCPF.geraDigito(cpfSemDigito);
     const digito2 = ValidaCPF.geraDigito(cpfSemDigito + digito1);
     const novoCpf = cpfSemDigito + digito1 + digito2;

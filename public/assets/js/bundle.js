@@ -102,7 +102,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 ___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ":root {\n  --primary-color: rgb(17, 86, 102);\n  --primary-color-darker: rgb(9, 48, 56);\n}\n\n* {\n  box-sizing: border-box;\n  outline: 0;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n  background: var(--primary-color);\n  font-family: \"Open sans\", sans-serif;\n  font-size: 1.3em;\n  line-height: 1.5em;\n}\n\n.container {\n  max-width: 640px;\n  margin: 50px auto;\n  background: #fff;\n  padding: 20px;\n  border-radius: 10px;\n}\n\nform input, form label, form button {\n  display: block;\n  width: 100%;\n  margin-bottom: 10px;\n}\n\nform input {\n  font-size: 24px;\n  height: 50px;\n  padding: 0 20px;\n}\n\nform input:focus {\n  outline: 1px solid var(--primary-color);\n}\n\nform button {\n  border: none;\n  background: var(--primary-color);\n  color: #fff;\n  font-size: 18px;\n  font-weight: 700;\n  height: 50px;\n  cursor: pointer;\n  margin-top: 30px;\n}\n\nform button:hover {\n  background: var(--primary-color-darker);\n}\n\n.container h1 {\n  text-align: center;\n  margin-bottom: 40px;\n}\n\n.cpf-gerado {\n  font-size: 2em;\n  color: var(--primary-color);\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 40px;\n  letter-spacing: 5px;\n}", "",{"version":3,"sources":["webpack://src/assets/css/style.scss"],"names":[],"mappings":"AACA;EACE,iCAAA;EACA,sCAAA;AACF;;AAEA;EACE,sBAAA;EACA,UAAA;AACF;;AAEA;EACE,SAAA;EACA,UAAA;EACA,gCAAA;EACA,oCAAA;EACA,gBAAA;EACA,kBAAA;AACF;;AAEA;EACE,gBAAA;EACA,iBAAA;EACA,gBAAA;EACA,aAAA;EACA,mBAAA;AACF;;AAEA;EACE,cAAA;EACA,WAAA;EACA,mBAAA;AACF;;AAEA;EACE,eAAA;EACA,YAAA;EACA,eAAA;AACF;;AAEA;EACE,uCAAA;AACF;;AAEA;EACE,YAAA;EACA,gCAAA;EACA,WAAA;EACA,eAAA;EACA,gBAAA;EACA,YAAA;EACA,eAAA;EACA,gBAAA;AACF;;AAEA;EACE,uCAAA;AACF;;AAEA;EACE,kBAAA;EACA,mBAAA;AACF;;AAEA;EACE,cAAA;EACA,2BAAA;EACA,kBAAA;EACA,iBAAA;EACA,mBAAA;EACA,mBAAA;AACF","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');\n:root {\n  --primary-color: rgb(17, 86, 102);\n  --primary-color-darker: rgb(9, 48, 56);\n}\n\n* {\n  box-sizing: border-box;\n  outline: 0;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n  background: var(--primary-color);\n  font-family: 'Open sans', sans-serif;\n  font-size: 1.3em;\n  line-height: 1.5em;\n}\n\n.container {\n  max-width: 640px;\n  margin: 50px auto;\n  background: #fff;\n  padding: 20px;\n  border-radius: 10px;\n}\n\nform input, form label, form button {\n  display: block;\n  width: 100%;\n  margin-bottom: 10px;\n}\n\nform input {\n  font-size: 24px;\n  height: 50px;\n  padding: 0 20px;\n}\n\nform input:focus {\n  outline: 1px solid var(--primary-color);\n}\n\nform button {\n  border: none;\n  background: var(--primary-color);\n  color: #fff;\n  font-size: 18px;\n  font-weight: 700;\n  height: 50px;\n  cursor: pointer;\n  margin-top: 30px;\n}\n\nform button:hover {\n  background: var(--primary-color-darker);\n}\n\n.container h1 {\n  text-align: center;\n  margin-bottom: 40px;\n}\n\n.cpf-gerado {\n  font-size: 2em;\n  color: var(--primary-color);\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 40px;\n  letter-spacing: 5px;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ":root {\n  --primary-color: rgb(17, 86, 102);\n  --primary-color-darker: rgb(9, 48, 56);\n}\n\n* {\n  box-sizing: border-box;\n  outline: 0;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n  background: var(--primary-color);\n  font-family: \"Open sans\", sans-serif;\n  font-size: 1.3em;\n  line-height: 1.5em;\n}\n\n.container {\n  max-width: 640px;\n  margin: 50px auto;\n  background: #fff;\n  padding: 20px;\n  border-radius: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n}\nform input {\n  display: block;\n  width: 100%;\n}\nform label {\n  display: inline-block;\n}\n\nform input {\n  font-size: 16px;\n  height: 24px;\n}\nform input[type=checkbox] {\n  width: 24px;\n  display: inline-block;\n}\n\nform input:focus {\n  outline: 1px solid var(--primary-color);\n}\n\nform button {\n  border: none;\n  background: var(--primary-color);\n  color: #fff;\n  font-size: 18px;\n  font-weight: 700;\n  height: 50px;\n  cursor: pointer;\n  margin-top: 30px;\n}\n\nform button:hover {\n  background: var(--primary-color-darker);\n}\n\n.container h1 {\n  text-align: center;\n  margin-bottom: 40px;\n}\n\n.cpf-gerado {\n  font-size: 2em;\n  color: var(--primary-color);\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 40px;\n  letter-spacing: 5px;\n}", "",{"version":3,"sources":["webpack://src/assets/css/style.scss"],"names":[],"mappings":"AACA;EACE,iCAAA;EACA,sCAAA;AACF;;AAEA;EACE,sBAAA;EACA,UAAA;AACF;;AAEA;EACE,SAAA;EACA,UAAA;EACA,gCAAA;EACA,oCAAA;EACA,gBAAA;EACA,kBAAA;AACF;;AAEA;EACE,gBAAA;EACA,iBAAA;EACA,gBAAA;EACA,aAAA;EACA,mBAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;AACF;AAAE;EACE,cAAA;EACA,WAAA;AAEJ;AAAE;EACE,qBAAA;AAEJ;;AAEA;EACE,eAAA;EACA,YAAA;AACF;AAAE;EACE,WAAA;EACA,qBAAA;AAEJ;;AAEA;EACE,uCAAA;AACF;;AAEA;EACE,YAAA;EACA,gCAAA;EACA,WAAA;EACA,eAAA;EACA,gBAAA;EACA,YAAA;EACA,eAAA;EACA,gBAAA;AACF;;AAEA;EACE,uCAAA;AACF;;AAEA;EACE,kBAAA;EACA,mBAAA;AACF;;AAEA;EACE,cAAA;EACA,2BAAA;EACA,kBAAA;EACA,iBAAA;EACA,mBAAA;EACA,mBAAA;AACF","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');\n:root {\n  --primary-color: rgb(17, 86, 102);\n  --primary-color-darker: rgb(9, 48, 56);\n}\n\n* {\n  box-sizing: border-box;\n  outline: 0;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n  background: var(--primary-color);\n  font-family: 'Open sans', sans-serif;\n  font-size: 1.3em;\n  line-height: 1.5em;\n}\n\n.container {\n  max-width: 640px;\n  margin: 50px auto;\n  background: #fff;\n  padding: 20px;\n  border-radius: 10px;\n}\n\nform{\n  display: flex;\n  flex-direction: column;\n  input{\n    display: block;\n    width: 100%;\n  }\n  label{\n    display: inline-block;\n  }\n}\n\nform input {\n  font-size: 16px;\n  height: 24px;\n  &[type=checkbox]{\n    width: 24px;\n    display: inline-block;\n  }\n}\n\nform input:focus {\n  outline: 1px solid var(--primary-color);\n}\n\nform button {\n  border: none;\n  background: var(--primary-color);\n  color: #fff;\n  font-size: 18px;\n  font-weight: 700;\n  height: 50px;\n  cursor: pointer;\n  margin-top: 30px;\n}\n\nform button:hover {\n  background: var(--primary-color-darker);\n}\n\n.container h1 {\n  text-align: center;\n  margin-bottom: 40px;\n}\n\n.cpf-gerado {\n  font-size: 2em;\n  color: var(--primary-color);\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 40px;\n  letter-spacing: 5px;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -533,8 +533,10 @@ module.exports = content.locals || {};
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_GeraCPF__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/GeraCPF */ "./src/modules/GeraCPF.js");
-/* harmony import */ var _assets_css_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/css/style.scss */ "./src/assets/css/style.scss");
-/* harmony import */ var _assets_css_style_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_css_style_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _modules_formGeraSenha__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/formGeraSenha */ "./src/modules/formGeraSenha.js");
+/* harmony import */ var _assets_css_style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/css/style.scss */ "./src/assets/css/style.scss");
+/* harmony import */ var _assets_css_style_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_css_style_scss__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
@@ -542,6 +544,7 @@ __webpack_require__.r(__webpack_exports__);
   var gera = new _modules_GeraCPF__WEBPACK_IMPORTED_MODULE_0__["default"]();
   var cpfGerado = document.querySelector('.cpf-gerado');
   cpfGerado.innerHTML = gera.geraNovoCpf();
+  Object(_modules_formGeraSenha__WEBPACK_IMPORTED_MODULE_1__["default"])();
 })();
 
 /***/ }),
@@ -585,8 +588,8 @@ var GeraCPF = /*#__PURE__*/function () {
   }, {
     key: "geraNovoCpf",
     value: function geraNovoCpf() {
-      var cpfSemDigito = this.rand();
-      console.log(cpfSemDigito);
+      var cpfSemDigito = this.rand(); // console.log(cpfSemDigito)
+
       var digito1 = _ValidaCPF__WEBPACK_IMPORTED_MODULE_0__["default"].geraDigito(cpfSemDigito);
       var digito2 = _ValidaCPF__WEBPACK_IMPORTED_MODULE_0__["default"].geraDigito(cpfSemDigito + digito1);
       var novoCpf = cpfSemDigito + digito1 + digito2;
@@ -598,6 +601,54 @@ var GeraCPF = /*#__PURE__*/function () {
 }();
 
 
+
+/***/ }),
+
+/***/ "./src/modules/PassGen.js":
+/*!********************************!*\
+  !*** ./src/modules/PassGen.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return geraSenha; });
+var rand = function rand(min, max) {
+  return Math.floor(Math.random() * (max - min) + min);
+};
+
+var geraMaiuscula = function geraMaiuscula() {
+  return String.fromCharCode(rand(65, 91));
+};
+
+var geraMinuscula = function geraMinuscula() {
+  return String.fromCharCode(rand(97, 123));
+};
+
+var geraNumero = function geraNumero() {
+  return String.fromCharCode(rand(48, 58));
+};
+
+var simbolos = ',.;~^[]{}!@#$%*()_+=-';
+
+var geraSimbolos = function geraSimbolos() {
+  return simbolos[rand(0, simbolos.length)];
+};
+
+function geraSenha(qtd, maiusculas, minusculas, numeros, simbolos) {
+  var senhaArray = [];
+  qtd = Number(qtd);
+
+  for (var i = 0; i < qtd; i++) {
+    maiusculas && senhaArray.push(geraMaiuscula());
+    minusculas && senhaArray.push(geraMinuscula());
+    numeros && senhaArray.push(geraNumero());
+    simbolos && senhaArray.push(geraSimbolos());
+  }
+
+  return senhaArray.join('').slice(0, qtd);
+}
 
 /***/ }),
 
@@ -689,6 +740,37 @@ var ValidaCPF = /*#__PURE__*/function () {
 }();
 
 
+
+/***/ }),
+
+/***/ "./src/modules/formGeraSenha.js":
+/*!**************************************!*\
+  !*** ./src/modules/formGeraSenha.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _PassGen__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PassGen */ "./src/modules/PassGen.js");
+
+var senhaGerada = document.querySelector('.senha-gerada');
+var qtdCaracteres = document.querySelector('.qtd-caracteres');
+var chkMaiusculas = document.querySelector('.chk-maiusculas');
+var chkMinusculas = document.querySelector('.chk-minusculas');
+var chkNumeros = document.querySelector('.chk-numeros');
+var chkSimbolos = document.querySelector('.chk-simbolos');
+var gerarSenha = document.querySelector('.gerar-senha');
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  gerarSenha.addEventListener('click', function () {
+    senhaGerada.innerHTML = gera();
+  });
+});
+
+function gera() {
+  var senha = Object(_PassGen__WEBPACK_IMPORTED_MODULE_0__["default"])(qtdCaracteres.value, chkMaiusculas.checked, chkMinusculas.checked, chkNumeros.checked, chkSimbolos.checked);
+  return senha || 'Nada selecionado.';
+}
 
 /***/ })
 

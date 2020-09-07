@@ -26,16 +26,25 @@ body {
   border-radius: 10px;
 }
 
-form input, form label, form button {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
+form{
+  display: flex;
+  flex-direction: column;
+  input{
+    display: block;
+    width: 100%;
+  }
+  label{
+    display: inline-block;
+  }
 }
 
 form input {
-  font-size: 24px;
-  height: 50px;
-  padding: 0 20px;
+  font-size: 16px;
+  height: 24px;
+  &[type=checkbox]{
+    width: 24px;
+    display: inline-block;
+  }
 }
 
 form input:focus {
